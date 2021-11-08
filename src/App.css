@@ -1,38 +1,593 @@
-.App {
-  text-align: center;
-}
+@media all and (min-width: 1224px) {
+  /* Navbar */
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .navBar {
+    background-color: #f8f4ec;
+  }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  .navBarLogo {
+    margin-left: 250px;
+  }
+
+  .rightSide {
+    flex-direction: column;
+    margin-right: 100px;
+  }
+
+  .homeNavLink {
+    font-weight: bold;
+  }
+
+  /* Hero Section One */
+
+  .heroSectionOne {
+    filter: brightness(85%);
+    position: relative;
+    height: 681px;
+    max-width: 100%;
+    background-color: #cb0007;
+  }
+
+  /* Hero Section One Left Side */
+
+  .heroSectionOneHeader {
+    position: absolute;
+    left: 250px;
+    top: 135px;
+    width: 585px;
+    height: 178px;
+    font-family: IvyPresto Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    line-height: 86.72px;
+    color: #ffffff;
+  }
+
+  .heroSectionOneBody {
+    position: absolute;
+    left: 250px;
+    top: 335px;
+    font-family: Niveau Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 132.9%;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+
+  .heroSectionOneButton {
+    position: absolute;
+    left: 250px;
+    top: 500px;
+    background: url("./FigmaResources/portfolio.png") no-repeat;
+    cursor: pointer;
+    width: 229px;
+    height: 60px;
+    border: none;
+  }
+
+  /* Hero Section One Right Side */
+
+  .heroImageOne {
+    position: absolute;
+    left: 1135px;
+    width: 475px;
+    height: 275px;
+    z-index: 2;
+  }
+
+  .heroImageTwo {
+    position: absolute;
+    top: 225px;
+    left: 1385px;
+    width: 315px;
+    height: 320px;
+  }
+
+  .heroImageThree {
+    position: absolute;
+    top: 275px;
+    left: 1545px;
+    width: 261.5px;
+    height: 317px;
+    z-index: 2;
+  }
+
+  .group31 {
+    position: absolute;
+    left: 1668px;
+    top: 640.5px;
+    z-index: 4;
+  }
+
+  /* Hero Section Two */
+  .heroSectionTwo {
+    position: relative;
+    height: 1131px;
+    max-width: 100%;
+    background: linear-gradient(to right, white 80%, #f4f2eb 20%);
+  }
+
+  /* Hero Section Two Top */
+
+  .heroImageFour {
+    position: absolute;
+    width: 554px;
+    height: 525px;
+    left: 250px;
+    top: 136px;
+    z-index: 2;
+  }
+
+  .rectangle45 {
+    position: absolute;
+    width: 555px;
+    height: 525px;
+    left: 237px;
+    top: 150px;
+  }
+
+  .heroSectionTwoHeader {
+    position: absolute;
+    width: 607px;
+    height: 129px;
+    left: 1135px;
+    top: 210px;
+
+    font-family: IvyPresto Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 62px;
+    line-height: 97.9%;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .heroSectionTwoBody {
+    position: absolute;
+    width: 610px;
+    height: 216px;
+    left: 1135px;
+    top: 371px;
+
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 166.4%;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Hero Section Two Bottom */
+
+  .customers {
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    left: calc(25% - 86px);
+    top: 750px;
+  }
+
+  .suppliers {
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    left: calc(50% - 86px);
+    top: 750px;
+  }
+
+  .team {
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    left: calc(75% - 86px);
+    top: 750px;
+  }
+
+  /* Hero Section Two Bottom Headers*/
+
+  .customersHeader {
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: calc(25% - 200px);
+    top: 950px;
+    font-family: IvyPresto Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  .suppliersHeader {
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: calc(50% - 200px);
+    top: 950px;
+    font-family: IvyPresto Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  .teamHeader {
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: calc(75% - 200px);
+    top: 950px;
+    font-family: IvyPresto Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  /* Hero Section Two Bottom Headers*/
+
+  .customersLink {
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: calc(25% - 100px);
+    top: 1000px;
+    font-family: Niveau Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.51;
+  }
+
+  .suppliersLink {
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: calc(50% - 100px);
+    top: 1000px;
+    font-family: Niveau Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.51;
+  }
+
+  .teamLink {
+    text-decoration: none;
+    position: absolute;
+    width: 225px;
+    height: 31px;
+    left: calc(75% - 100px);
+    top: 1000px;
+    font-family: Niveau Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.51;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+@media all and (max-width: 1224px) {
+  /* Navbar */
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .navBar {
+    background-color: #f8f4ec;
   }
-  to {
-    transform: rotate(360deg);
+
+  .navBarLogo {
+    margin-left: 50%;
+  }
+
+  .rightSide {
+    flex-direction: column;
+    margin-right: 100px;
+  }
+
+  .homeNavLink {
+    font-weight: bold;
+  }
+
+  /* Hero Section One */
+
+  .heroSectionOne {
+    filter: brightness(85%);
+    position: relative;
+    height: 600px;
+    max-width: 100%;
+    background-color: #cb0007;
+  }
+
+  /* Hero Section One Left Side */
+
+  .heroSectionOneHeader {
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    max-width: 100%;
+    width: 585px;
+    height: 178px;
+    font-family: IvyPresto Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 86.72px;
+    color: #ffffff;
+  }
+
+  .heroSectionOneBody {
+    position: absolute;
+    left: 10px;
+    top: 75px;
+    font-family: Niveau Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 132.9%;
+    letter-spacing: 0.01em;
+    color: #ffffff;
+  }
+
+  .heroSectionOneButton {
+    position: absolute;
+    left: 10px;
+    top: 185px;
+    background: url("./FigmaResources/portfolio.png") no-repeat;
+    cursor: pointer;
+    width: 229px;
+    height: 60px;
+    border: none;
+  }
+
+  /* Hero Section One Right Side */
+
+  .heroImageOne {
+    position: absolute;
+    top: 250px;
+    left: 125px;
+    width: 285px;
+    height: 165px;
+    z-index: -2;
+  }
+
+  .heroImageTwo {
+    position: absolute;
+    top: 350px;
+    left: 100px;
+    width: 190px;
+    height: 128px;
+    z-index: -4;
+  }
+
+  .heroImageThree {
+    position: absolute;
+    top: 400px;
+    left: 25px;
+    width: 175px;
+    height: 175px;
+    z-index: 2;
+  }
+
+  .group31 {
+    position: absolute;
+    left: calc(72% - 140.5px);
+    top: 559.5px;
+    z-index: 4;
+  }
+
+  /* Hero Section Two */
+  .heroSectionTwo {
+    position: relative;
+    height: 700px;
+    max-width: 100%;
+    background: linear-gradient(to right, white 80%, #f4f2eb 20%);
+  }
+
+  /* Hero Section Two Top */
+
+  .heroImageFour {
+    display: none;
+  }
+
+  .rectangle45 {
+    display: none;
+  }
+
+  .heroSectionTwoHeader {
+    position: absolute;
+    width: 607px;
+    height: 129px;
+    left: 10px;
+    top: 175px;
+
+    font-family: IvyPresto Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24.5px;
+    line-height: 97.9%;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  .heroSectionTwoBody {
+    position: absolute;
+    width: 610px;
+    height: 216px;
+    left: 10px;
+    top: 225px;
+
+    font-family: Gordita;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 166.4%;
+
+    color: #000000;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  }
+
+  /* Hero Section Two Bottom */
+
+  .customers {
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    left: calc(50% - 86px);
+    top: 450px;
+  }
+
+  .suppliers {
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    left: calc(50% - 86px);
+    top: 800px;
+  }
+
+  .team {
+    position: absolute;
+    width: 172px;
+    height: 172px;
+    left: calc(50% - 86px);
+    top: 1150px;
+  }
+
+  /* Hero Section Two Bottom Headers*/
+
+  .customersHeader {
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: calc(50% - 200px);
+    top: 650px;
+    font-family: IvyPresto Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  .suppliersHeader {
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: calc(50% - 200px);
+    top: 1000px;
+    font-family: IvyPresto Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  .teamHeader {
+    position: absolute;
+    width: 400px;
+    height: 62px;
+    left: calc(50% - 200px);
+    top: 1350px;
+    font-family: IvyPresto Display;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 37px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+  }
+
+  /* Hero Section Two Bottom Headers*/
+
+  .customersLink {
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: calc(50% - 100px);
+    top: 700px;
+    font-family: Niveau Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.51;
+  }
+
+  .suppliersLink {
+    text-decoration: none;
+    position: absolute;
+    width: 200px;
+    height: 31px;
+    left: calc(50% - 100px);
+    top: 1050px;
+    font-family: Niveau Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.51;
+  }
+
+  .teamLink {
+    text-decoration: none;
+    position: absolute;
+    width: 225px;
+    height: 31px;
+    left: calc(50% - 100px);
+    top: 1400px;
+    font-family: Niveau Grotesk;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 23px;
+    line-height: 132.9%;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    opacity: 0.51;
   }
 }
